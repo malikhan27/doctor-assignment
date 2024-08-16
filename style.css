@@ -6,8 +6,12 @@
   font-family: section-font;
   src: url(assets/fonts/Lato/Lato-Regular.ttf);
 }
+@font-face {
+  font-family: body-font;
+  src: url(assets/fonts/DM_Sans/DMSans-VariableFont_opsz\,wght.ttf);
+}
 .head-nav {
-  font-family: header-font;
+  font-family: header-font !important;
   font-weight: 300;
 }
 
@@ -65,6 +69,7 @@ body {
 
 .section-1 {
   margin-top: 50px !important;
+  font-family: body-font;
 }
 
 .card {
@@ -211,8 +216,13 @@ div input {
   background-color: #007E85 !important;
 }
 
+.section-2 {
+  font-family: body-font;
+}
 .section-2 h4 {
+  font-size: 36px;
   color: #007E85;
+  font-weight: bold;
 }
 .section-2 h4 span {
   color: rgba(0, 126, 133, 0.5);
@@ -231,4 +241,64 @@ div input {
 .card-body div h5 {
   color: #007E85;
   font-size: 36px;
+  font-weight: bold;
+}
+.card-body div p {
+  line-height: 30px;
+}
+
+.section-3 {
+  font-family: body-font;
+}
+.section-3 h4 {
+  color: #007E85;
+  font-size: 36px;
+  font-weight: bold;
+}
+.section-3 p {
+  font-size: 18px;
+  line-height: 30px;
+}
+.section-3 p small a {
+  color: #007E85;
+}
+.section-3 h5 {
+  font-size: 24px;
+  color: #007E85;
+  font-weight: bold;
+}
+
+.section-4 {
+  font-family: body-font;
+}
+.section-4 h4 {
+  color: #007E85;
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+}
+.section-4 p {
+  font-size: 18px;
+  text-align: center;
+  line-height: 30px;
+}
+.section-4 p small a {
+  color: #007E85;
+}
+.section-4 h5 {
+  font-size: 24px;
+  color: #007E85;
+  font-weight: bold;
+  text-align: center;
+}
+.section-4 h6 {
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 10% !important;
+}
+.section-4 .card .card-i {
+  height: 120px;
+  width: 120px;
+  border-radius: 50% !important;
 }/*# sourceMappingURL=style.css.map */

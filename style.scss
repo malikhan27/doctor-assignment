@@ -8,6 +8,12 @@
     src: url(assets/fonts/Lato/Lato-Regular.ttf);
 }
 
+@font-face {
+    font-family: body-font ;
+    src: url(assets/fonts/DM_Sans/DMSans-VariableFont_opsz\,wght.ttf);
+}
+
+
 $primarycol: #007E85;
 $secondarycol:#6EAB36; 
 @mixin btn-pri{
@@ -22,7 +28,7 @@ $secondarycol:#6EAB36;
 
 // header starts 
 .head-nav{
-    font-family: header-font;
+    font-family: header-font !important;
     font-weight: 300;
 }
 
@@ -82,6 +88,7 @@ body{
 
 .section-1{
     margin-top: 50px !important;
+    font-family: body-font;
 }
 
 .card{
@@ -258,8 +265,11 @@ body{
 
 
 .section-2{
+    font-family: body-font;
     h4{
-        color:#007E85;
+        font-size: 36px;
+        color:$primarycol;
+        font-weight: bold;
         span{
             color: rgba(0, 126, 133, 0.500);
         }
@@ -285,8 +295,86 @@ body{
         h5{
             color: $primarycol;
             font-size: 36px;
+            font-weight: bold;
+            
+        }
+        p{
+            line-height: 30px;
         }
     }
+
 }
 
+.section-3{
+    font-family: body-font;
+    h4{
+        color:$primarycol;
+        font-size: 36px ;
+        font-weight: bold;
+    }
+        p{
+            font-size: 18px;
+            line-height: 30px;
+            small{
+                a{
+                    color: $primarycol;
+                }
+            }
+        }
 
+        h5{
+            font-size: 24px;
+            color: $primarycol;
+            font-weight: bold ;
+
+        }
+       
+
+    }
+
+.section-4{
+        font-family: body-font;
+        h4{
+            color:$primarycol;
+            font-size: 36px ;
+            font-weight: bold;
+            text-align: center;
+        }
+        p{
+            font-size: 18px;
+            text-align: center;
+            line-height: 30px;
+            small{
+                a{
+                    color: $primarycol;
+                 }
+                }
+            }
+    
+        h5{
+            font-size: 24px;
+            color: $primarycol;
+            font-weight: bold ;
+            text-align: center;
+    
+            }
+            h6{
+                text-align:center ;
+                font-weight: bold;
+                text-transform: uppercase;
+                letter-spacing: 10% !important;
+            }
+
+            .card{
+                .card-i{
+                    height: 120px;
+                    width: 120px;
+                    border-radius: 50% !important;
+                }
+            }
+           
+
+    
+        }
+    
+    
