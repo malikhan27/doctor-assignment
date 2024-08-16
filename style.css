@@ -205,7 +205,7 @@ body {
   padding: 15px 7px;
 }
 
-div input {
+div .input-sec1 {
   border: 0.5px solid #007E85 !important;
   border-radius: 8px !important;
   padding: 8px 20px !important;
@@ -301,4 +301,102 @@ div input {
   height: 120px;
   width: 120px;
   border-radius: 50% !important;
+}
+
+.section-5 {
+  font-family: body-font;
+}
+.section-5 h4 {
+  color: #007E85;
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+}
+.section-5 p {
+  color: #555555;
+  font-size: 18px;
+  line-height: 30px;
+}
+.section-5 p span {
+  text-transform: uppercase;
+}
+
+h6 {
+  font-weight: bold;
+  letter-spacing: 10% !important;
+}
+
+.card .card-i {
+  height: 90px;
+  width: 90px;
+  border-radius: 50% !important;
+}
+.card h3 {
+  font-size: 18px;
+  color: #007E85;
+  font-weight: bold;
+}
+
+.section-6 {
+  font-family: body-font;
+}
+.section-6 h4 {
+  color: #007E85;
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+}
+.section-6 img {
+  width: 111px;
+  height: 32px;
+}
+.section-6 h5 {
+  font-weight: bold;
+}
+
+@media screen and (max-width: 992px) {
+  .section-6 {
+    font-family: body-font;
+  }
+  .section-6 h4 {
+    color: #007E85;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+  }
+  .section-6 .images {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 3px;
+    flex-wrap: wrap;
+    margin-top: 10px;
+  }
+}
+.nav-dots .dot1 {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background-color: #007E85;
+}
+.nav-dots .dots {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background-color: rgba(0, 126, 133, 0.4941176471);
+}
+
+.section-7 {
+  font-family: body-font;
+}
+.section-7 .input-sec7 {
+  width: 95%;
+  padding: 15px 280px 15px 4px;
+  border: none;
+}
+.section-7 button {
+  font-size: 16px;
+  padding: 15px 20px;
+  font-weight: 600;
 }/*# sourceMappingURL=style.css.map */
