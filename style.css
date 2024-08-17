@@ -391,12 +391,56 @@ h6 {
   font-family: body-font;
 }
 .section-7 .input-sec7 {
-  width: 95%;
+  width: 100%;
   padding: 15px 280px 15px 4px;
   border: none;
+  font-size: 16px;
 }
 .section-7 button {
   font-size: 16px;
   padding: 15px 20px;
   font-weight: 600;
+}
+
+.footer {
+  font-family: body-font;
+  padding: 50px 0;
+  background-color: #007E85;
+  color: white;
+}
+.footer h2 {
+  font-family: header-font;
+  font-size: 26px;
+}
+.footer ul {
+  list-style-type: none;
+  list-style-position: inside;
+}
+.footer ul h4 {
+  font-size: 20px;
+  font-weight: bold;
+}
+.footer ul li {
+  margin-top: 6px;
+  font-size: 18px;
+}
+.footer ul li span {
+  margin-right: 15px;
+  background-color: #FFFFFF;
+  color: #555555;
+  border: none;
+  border-radius: 8px;
+  padding: 6px 11px;
+  font-size: medium;
+  margin-bottom: 5px;
+}
+.footer ul li .button {
+  margin-right: 15px;
+  background-color: #FFFFFF;
+  color: #555555;
+  border: none;
+  border-radius: 8px;
+  padding: 6px 8px;
+  font-size: medium;
+  margin-top: 5px;
 }/*# sourceMappingURL=style.css.map */

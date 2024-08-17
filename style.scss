@@ -476,9 +476,10 @@ body{
 .section-7{
     font-family: body-font;
     .input-sec7{
-        width: 95%;
+        width: 100%;
         padding: 15px 280px 15px 4px;
         border: none;
+        font-size: 16px;
     }
     button{
         font-size: 16px;
@@ -486,6 +487,56 @@ body{
         font-weight: 600;
 
 
+    }
+}
+
+.footer{
+    font-family: body-font;
+    padding: 50px 0;
+    background-color: $primarycol;
+    color: white;
+    h2{
+        font-family: header-font;
+        font-size: 26px;
+    }
+
+    ul{
+        list-style-type: none;
+        list-style-position: inside;
+        h4{
+            font-size: 20px;
+            font-weight: bold;
+        }
+        li{
+            margin-top: 6px;
+            font-size: 18px;
+             
+            span{
+                margin-right: 15px;
+                background-color: #FFFFFF;
+                color: #555555;
+                border: none;
+                border-radius: 8px;
+                padding: 6px 11px;
+                font-size: medium;
+                margin-bottom: 5px;
+        
+            }
+
+            .button{
+                margin-right: 15px;
+                background-color: #FFFFFF;
+                color: #555555;
+                border: none;
+                border-radius: 8px;
+                padding: 6px 8px;
+                font-size: medium;
+                margin-top: 5px;
+        
+            }
+
+       
+        }
     }
 }
 
